@@ -1,0 +1,36 @@
+.edit-modal-form{
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    background-color: var(--white);
+}
+.edit-modal-form h1{
+    font-size: 1.2rem;
+}
+.edit-form-submit{
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: .8rem;
+}
+
+/* stert edit modal child style  */
+.edit-products-form-group{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+.edit-product-input{
+    background-color: unset;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    font-size: .8rem;
+}
